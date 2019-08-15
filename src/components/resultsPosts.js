@@ -15,8 +15,8 @@ class ResultsPosts extends Component {
     render() {
         return (
             <div className="results-posts">
-                <div className="results-post__wrapper">
-                    <ul className="results-post__posts">
+                <div className="results-posts__wrapper">
+                    <ul className="results-posts__posts">
                         {this.renderPosts()}
                     </ul>
                 </div>
