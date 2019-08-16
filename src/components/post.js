@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import AnimateHeight from 'react-animate-height';
+import React, { Component } from "react";
+import AnimateHeight from "react-animate-height";
 
 class Post extends Component {
 
@@ -29,10 +29,10 @@ class Post extends Component {
     }
 
     if (link.includes('.html')) {
-      link = link.substring(0, link.length - 5);
+      link = link.substring(0, link.length - 5)
     }
     if (link.includes('.htm')) {
-      link = link.substring(0, link.length - 4);
+      link = link.substring(0, link.length - 4)
     }
 
     return link;
