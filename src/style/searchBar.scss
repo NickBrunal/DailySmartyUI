@@ -43,6 +43,11 @@
     input {
         height: 118px;
         font-size: 40px;
+        @media screen and (max-width: 600px) {
+            grid-template-columns: 1fr 1fr 1fr;
+            font-size: 23px;
+            height: 59px;
+        }
     }
 }
 
